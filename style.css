@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+    box-sizing:border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url("./bgPic.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-container {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    /* border-radius: 20px; */
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.5;
+    box-shadow: -1px -1px 10px black;
+}
